@@ -5,8 +5,10 @@ using UnityEngine;
 public class dudeMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+
+
     public float speed;
-    public VariableJoystick variableJoystick;
+
     public Joystick joystick;
     
 
