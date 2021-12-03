@@ -10,6 +10,7 @@ public class RoomSpawner : MonoBehaviour
     // 2 --> need top door
     // 3 --> need left door
     // 4 --> need right door
+    public int entryPoint;
 
     private RoomTemplates  templates;
     private int rand;
@@ -17,7 +18,7 @@ public class RoomSpawner : MonoBehaviour
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
-        Invoke("Spawn",1.5f);
+        Invoke("Spawn",0.5f);
     }
 
     
@@ -46,17 +47,80 @@ public class RoomSpawner : MonoBehaviour
             }
             spawned=true;
         }
-        
+
 
     }
 
     void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("SpawnPoint")){
-            if(other.GetComponent<RoomSpawner>().spawned ==false && spawned ==false){
-                Instantiate(templates.closedRoom,transform.position,Quaternion.identity);
-                Destroy(gameObject);
+            if(other.GetComponent<RoomSpawner>().spawned == false && spawned ==false){
+                if(openingDirection==2){
+                    if(other.GetComponent<RoomSpawner>().openingDirection==3){
+                        Instantiate(templates.closedRoom[0],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                    else if(other.GetComponent<RoomSpawner>().openingDirection==4){
+                        Instantiate(templates.closedRoom[1],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                    
+                }
+                else if(openingDirection ==1){
+                    if(other.GetComponent<RoomSpawner>().openingDirection==3){
+                        Instantiate(templates.closedRoom[2],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                    else if(other.GetComponent<RoomSpawner>().openingDirection==4){
+                        Instantiate(templates.closedRoom[3],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                }
+                else if(openingDirection==3){
+                    if(other.GetComponent<RoomSpawner>().openingDirection==2){
+                        Instantiate(templates.closedRoom[1],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                    else if(other.GetComponent<RoomSpawner>().openingDirection==1){
+                        Instantiate(templates.closedRoom[3],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                    
+                }
+                else if(openingDirection ==4){
+                    if(other.GetComponent<RoomSpawner>().openingDirection==2){
+                        Instantiate(templates.closedRoom[0],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                    else if(other.GetComponent<RoomSpawner>().openingDirection==1){
+                        Instantiate(templates.closedRoom[2],transform.position,Quaternion.identity);
+                        Destroy(gameObject);
+                    }
+                }
             }
             spawned = true;
         }
+
+
+        // if(other.CompareTag("Rooms")){
+        //     if(other.GetComponent<RoomSpawner>().spawned == true && spawned ==true){
+        //         if(entryPoint==1){
+        //             Instantiate(templates.bootomRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.bootomRooms[rand].transform.rotation);
+        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
+        //         }
+        //         else if(entryPoint==2){
+        //             Instantiate(templates.topRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.topRooms[rand].transform.rotation);
+        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
+        //         }
+        //         else if(entryPoint==3){
+        //             Instantiate(templates.leftRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.leftRooms[rand].transform.rotation);
+        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
+        //         }
+        //         else if(entryPoint==4){
+        //             Instantiate(templates.rightRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.rightRooms[rand].transform.rotation);
+        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
+        //         }
+        //     }
+            
+        // }
     }
 }

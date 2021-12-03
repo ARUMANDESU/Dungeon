@@ -58,4 +58,6 @@ public class FollowingCamera : MonoBehaviour
             transform.position=currentPosition;
         }
     }
+
+    
 }

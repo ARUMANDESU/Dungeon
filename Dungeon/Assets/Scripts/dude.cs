@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class dude : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Rigidbody2D rb;
+
+
     void Start()
     {
         
@@ -13,6 +15,6 @@ public class dude : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }

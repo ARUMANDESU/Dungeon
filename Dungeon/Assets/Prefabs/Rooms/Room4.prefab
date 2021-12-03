@@ -589,6 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 1
+  entryPoint: 2
 --- !u!1 &3228329655656614908
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 3
+  entryPoint: 4
 --- !u!1 &3256560744542155235
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,6 +777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  entryPoint: 1
 --- !u!1 &4435235613264347615
 GameObject:
   m_ObjectHideFlags: 0
@@ -5083,9 +5086,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bootomRooms:
-  - {fileID: 4938851012501261041, guid: 7ca57486197360046847115bf17e54d4, type: 3}
+  - {fileID: 2359146916285499227, guid: 7ca57486197360046847115bf17e54d4, type: 3}
   - {fileID: 6249542512516480798, guid: f79c3211382ec9d489f20fbee9f3427d, type: 3}
   - {fileID: 5006933377218069871, guid: c437b0719246b184e86b62d3982aea48, type: 3}
+  - {fileID: 1024620408044414592, guid: 31082dedaef721a40be067445668c8ee, type: 3}
   topRooms:
   - {fileID: 8717280028155186444, guid: 08a1236f400714140ae44b499d352581, type: 3}
   - {fileID: 6103091928806360223, guid: faaba73b05795f74b9c3cd2fd4c27b49, type: 3}
@@ -5095,12 +5099,17 @@ MonoBehaviour:
   - {fileID: 5915835148547964870, guid: 599ebc2edfe2dbb4cb1c0c7e7e9a9a35, type: 3}
   - {fileID: 1875206888598608378, guid: dedc8ee6157276f4a8a5ec74cba574f5, type: 3}
   - {fileID: 3920241532842751005, guid: f49f73df4871ffe4c80384a66e01d30a, type: 3}
+  - {fileID: 1024620408044414592, guid: 31082dedaef721a40be067445668c8ee, type: 3}
   rightRooms:
   - {fileID: 8717280028155186444, guid: 08a1236f400714140ae44b499d352581, type: 3}
   - {fileID: 3920241532842751005, guid: f49f73df4871ffe4c80384a66e01d30a, type: 3}
   - {fileID: 224059882766032499, guid: 12729453308b6d745bb61315869086d4, type: 3}
   - {fileID: 5006933377218069871, guid: c437b0719246b184e86b62d3982aea48, type: 3}
-  closedRoom: {fileID: 0}
+  closedRoom:
+  - {fileID: 8717280028155186444, guid: 08a1236f400714140ae44b499d352581, type: 3}
+  - {fileID: 5915835148547964870, guid: 599ebc2edfe2dbb4cb1c0c7e7e9a9a35, type: 3}
+  - {fileID: 5006933377218069871, guid: c437b0719246b184e86b62d3982aea48, type: 3}
+  - {fileID: 1024620408044414592, guid: 31082dedaef721a40be067445668c8ee, type: 3}
 --- !u!1 &4441902654777692822
 GameObject:
   m_ObjectHideFlags: 0
@@ -14735,6 +14744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 4
+  entryPoint: 3
 --- !u!1 &5408168308731961092
 GameObject:
   m_ObjectHideFlags: 0

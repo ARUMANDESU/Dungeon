@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6585963934382698149}
   m_Layer: 0
   m_Name: Dungeon_Tileset_32 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -376,6 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 1
+  entryPoint: 2
 --- !u!1 &2212715823967076387
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +389,7 @@ GameObject:
   - component: {fileID: 7992885698788366935}
   m_Layer: 0
   m_Name: Dungeon_Tileset_12 (6)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -540,7 +541,7 @@ GameObject:
   - component: {fileID: 3202848222218793830}
   m_Layer: 0
   m_Name: Dungeon_Tileset_32 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -622,7 +623,7 @@ GameObject:
   - component: {fileID: 6395388563409298492}
   m_Layer: 0
   m_Name: Dungeon_Tileset_41
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -737,7 +738,7 @@ GameObject:
   - component: {fileID: 6562421831983117201}
   m_Layer: 0
   m_Name: Dungeon_Tileset_13 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -928,7 +929,7 @@ GameObject:
   - component: {fileID: 8831894650075974076}
   m_Layer: 0
   m_Name: Dungeon_Tileset_41 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1161,7 +1162,7 @@ GameObject:
   - component: {fileID: 3097572248192297054}
   m_Layer: 0
   m_Name: Dungeon_Tileset_3 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1352,7 +1353,7 @@ GameObject:
   - component: {fileID: 6249542511540506675}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (18)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,7 +1435,7 @@ GameObject:
   - component: {fileID: 6249542511567349452}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1516,7 +1517,7 @@ GameObject:
   - component: {fileID: 6249542511584681186}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (32)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1598,7 +1599,7 @@ GameObject:
   - component: {fileID: 6249542511617064814}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (10)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1680,7 +1681,7 @@ GameObject:
   - component: {fileID: 6249542511657062835}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (8)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1762,7 +1763,7 @@ GameObject:
   - component: {fileID: 6249542511659190802}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (20)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1844,7 +1845,7 @@ GameObject:
   - component: {fileID: 6249542511669043227}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1926,7 +1927,7 @@ GameObject:
   - component: {fileID: 6249542511691028708}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (17)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2008,7 +2009,7 @@ GameObject:
   - component: {fileID: 6249542511713228843}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (24)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2090,7 +2091,7 @@ GameObject:
   - component: {fileID: 6249542511715948191}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2172,7 +2173,7 @@ GameObject:
   - component: {fileID: 6249542511728020344}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (35)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2254,7 +2255,7 @@ GameObject:
   - component: {fileID: 6249542511731588502}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2336,7 +2337,7 @@ GameObject:
   - component: {fileID: 6249542511733753070}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (9)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2418,7 +2419,7 @@ GameObject:
   - component: {fileID: 6249542511746562734}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (27)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2500,7 +2501,7 @@ GameObject:
   - component: {fileID: 6249542511748447534}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2582,7 +2583,7 @@ GameObject:
   - component: {fileID: 6249542511761624976}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33 (7)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2664,7 +2665,7 @@ GameObject:
   - component: {fileID: 6249542511764635341}
   m_Layer: 0
   m_Name: Dungeon_Tileset_32
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2855,7 +2856,7 @@ GameObject:
   - component: {fileID: 6249542511771759831}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (7)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3046,7 +3047,7 @@ GameObject:
   - component: {fileID: 6249542511791781003}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3237,7 +3238,7 @@ GameObject:
   - component: {fileID: 6249542511809900320}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3319,7 +3320,7 @@ GameObject:
   - component: {fileID: 6249542511839596585}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3728,7 +3729,7 @@ GameObject:
   - component: {fileID: 6249542511885567429}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (7)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3810,7 +3811,7 @@ GameObject:
   - component: {fileID: 6249542511887909864}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (11)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3892,7 +3893,7 @@ GameObject:
   - component: {fileID: 6249542511910566560}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (30)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3974,7 +3975,7 @@ GameObject:
   - component: {fileID: 6249542511939378544}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (34)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4056,7 +4057,7 @@ GameObject:
   - component: {fileID: 6249542511968511839}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4138,7 +4139,7 @@ GameObject:
   - component: {fileID: 6249542511970317804}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (7)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4220,7 +4221,7 @@ GameObject:
   - component: {fileID: 6249542511980015264}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4302,7 +4303,7 @@ GameObject:
   - component: {fileID: 6249542511985381873}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4384,7 +4385,7 @@ GameObject:
   - component: {fileID: 6249542511990404984}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (14)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4575,7 +4576,7 @@ GameObject:
   - component: {fileID: 6249542512054318057}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (29)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4766,7 +4767,7 @@ GameObject:
   - component: {fileID: 6249542512088896734}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (22)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4848,7 +4849,7 @@ GameObject:
   - component: {fileID: 6249542512094311249}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (16)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4930,7 +4931,7 @@ GameObject:
   - component: {fileID: 6249542512122377931}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (18)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5012,7 +5013,7 @@ GameObject:
   - component: {fileID: 6249542512137658960}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (28)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5094,7 +5095,7 @@ GameObject:
   - component: {fileID: 6249542512173224847}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (23)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5176,7 +5177,7 @@ GameObject:
   - component: {fileID: 6249542512182133905}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (19)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5367,7 +5368,7 @@ GameObject:
   - component: {fileID: 6249542512220811450}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (42)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5449,7 +5450,7 @@ GameObject:
   - component: {fileID: 6249542512225491668}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5531,7 +5532,7 @@ GameObject:
   - component: {fileID: 6249542512227139515}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5722,7 +5723,7 @@ GameObject:
   - component: {fileID: 6249542512302619872}
   m_Layer: 0
   m_Name: Dungeon_Tileset_11
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6131,7 +6132,7 @@ GameObject:
   - component: {fileID: 6249542512391579706}
   m_Layer: 0
   m_Name: Dungeon_Tileset_13 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6213,7 +6214,7 @@ GameObject:
   - component: {fileID: 6249542512408968897}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (19)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6404,7 +6405,7 @@ GameObject:
   - component: {fileID: 6249542512409163860}
   m_Layer: 0
   m_Name: Dungeon_Tileset_31
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6486,7 +6487,7 @@ GameObject:
   - component: {fileID: 6249542512467538766}
   m_Layer: 0
   m_Name: Dungeon_Tileset_12
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6568,7 +6569,7 @@ GameObject:
   - component: {fileID: 6249542512502481618}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (21)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6756,6 +6757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6249542512516480799}
+  - component: {fileID: 473856546475277437}
   m_Layer: 0
   m_Name: RoomTB
   m_TagString: Rooms
@@ -6780,6 +6782,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &473856546475277437
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6249542512516480798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6249542512534378843
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,7 +6820,7 @@ GameObject:
   - component: {fileID: 6249542512534378841}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (25)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6874,7 +6902,7 @@ GameObject:
   - component: {fileID: 6249542512556842382}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (23)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6956,7 +6984,7 @@ GameObject:
   - component: {fileID: 6249542512569942492}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (28)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7038,7 +7066,7 @@ GameObject:
   - component: {fileID: 6249542512584540822}
   m_Layer: 0
   m_Name: Dungeon_Tileset_13
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7120,7 +7148,7 @@ GameObject:
   - component: {fileID: 6249542512609297697}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7420,7 +7448,7 @@ GameObject:
   - component: {fileID: 6249542512622807085}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7502,7 +7530,7 @@ GameObject:
   - component: {fileID: 6249542512641318832}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (12)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7584,7 +7612,7 @@ GameObject:
   - component: {fileID: 6249542512647362604}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7775,7 +7803,7 @@ GameObject:
   - component: {fileID: 6249542512666096562}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (43)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7857,7 +7885,7 @@ GameObject:
   - component: {fileID: 6249542512700286496}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (41)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7939,7 +7967,7 @@ GameObject:
   - component: {fileID: 6249542512703579424}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (17)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8021,7 +8049,7 @@ GameObject:
   - component: {fileID: 6249542512717103469}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (40)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8103,7 +8131,7 @@ GameObject:
   - component: {fileID: 6249542512718988444}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (10)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8294,7 +8322,7 @@ GameObject:
   - component: {fileID: 6249542512747290477}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8376,7 +8404,7 @@ GameObject:
   - component: {fileID: 6249542512747440966}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (16)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8567,7 +8595,7 @@ GameObject:
   - component: {fileID: 6249542512753900157}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (15)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8758,7 +8786,7 @@ GameObject:
   - component: {fileID: 6249542512761022364}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (31)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8840,7 +8868,7 @@ GameObject:
   - component: {fileID: 6249542512769049363}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (8)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9031,7 +9059,7 @@ GameObject:
   - component: {fileID: 6249542512775988124}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (6)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9113,7 +9141,7 @@ GameObject:
   - component: {fileID: 6249542512791880048}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9195,7 +9223,7 @@ GameObject:
   - component: {fileID: 6249542512796572437}
   m_Layer: 0
   m_Name: Dungeon_Tileset_32 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9386,7 +9414,7 @@ GameObject:
   - component: {fileID: 6249542512815487386}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (13)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9468,7 +9496,7 @@ GameObject:
   - component: {fileID: 6249542512823219171}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (9)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9659,7 +9687,7 @@ GameObject:
   - component: {fileID: 6249542512897485933}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (15)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9741,7 +9769,7 @@ GameObject:
   - component: {fileID: 6249542512902823606}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (12)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9823,7 +9851,7 @@ GameObject:
   - component: {fileID: 6249542512954137287}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (27)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9905,7 +9933,7 @@ GameObject:
   - component: {fileID: 6249542512955355296}
   m_Layer: 0
   m_Name: Dungeon_Tileset_34
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9987,7 +10015,7 @@ GameObject:
   - component: {fileID: 6249542512959358991}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (26)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10069,7 +10097,7 @@ GameObject:
   - component: {fileID: 6249542512976825949}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (6)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10151,7 +10179,7 @@ GameObject:
   - component: {fileID: 6249542512991887380}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10233,7 +10261,7 @@ GameObject:
   - component: {fileID: 6249542513004796111}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10424,7 +10452,7 @@ GameObject:
   - component: {fileID: 6249542513013843562}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10615,7 +10643,7 @@ GameObject:
   - component: {fileID: 6249542513025349707}
   m_Layer: 0
   m_Name: Dungeon_Tileset_12 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10697,7 +10725,7 @@ GameObject:
   - component: {fileID: 6249542513052848634}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (13)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10997,7 +11025,7 @@ GameObject:
   - component: {fileID: 6249542513062465776}
   m_Layer: 0
   m_Name: Dungeon_Tileset_21 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11079,7 +11107,7 @@ GameObject:
   - component: {fileID: 6249542513067666558}
   m_Layer: 0
   m_Name: Dungeon_Tileset_13 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11161,7 +11189,7 @@ GameObject:
   - component: {fileID: 6249542513101199178}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11243,7 +11271,7 @@ GameObject:
   - component: {fileID: 6249542513108500806}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (24)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11652,7 +11680,7 @@ GameObject:
   - component: {fileID: 6249542513153429038}
   m_Layer: 0
   m_Name: Dungeon_Tileset_14
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11734,7 +11762,7 @@ GameObject:
   - component: {fileID: 6249542513184099770}
   m_Layer: 0
   m_Name: Dungeon_Tileset_12 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11816,7 +11844,7 @@ GameObject:
   - component: {fileID: 6249542513191980396}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (26)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11898,7 +11926,7 @@ GameObject:
   - component: {fileID: 6249542513209892370}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (14)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12089,7 +12117,7 @@ GameObject:
   - component: {fileID: 6249542513242456190}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (37)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12171,7 +12199,7 @@ GameObject:
   - component: {fileID: 6249542513282850682}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12253,7 +12281,7 @@ GameObject:
   - component: {fileID: 6249542513283248843}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (20)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12335,7 +12363,7 @@ GameObject:
   - component: {fileID: 6249542513293401256}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (39)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12417,7 +12445,7 @@ GameObject:
   - component: {fileID: 6249542513293925024}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (25)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12499,7 +12527,7 @@ GameObject:
   - component: {fileID: 6249542513330629844}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (36)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12581,7 +12609,7 @@ GameObject:
   - component: {fileID: 6249542513330689942}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12663,7 +12691,7 @@ GameObject:
   - component: {fileID: 6249542513335149912}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24 (6)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12854,7 +12882,7 @@ GameObject:
   - component: {fileID: 6249542513386341186}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (6)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13045,7 +13073,7 @@ GameObject:
   - component: {fileID: 6249542513449848458}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13127,7 +13155,7 @@ GameObject:
   - component: {fileID: 6249542513475575436}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (22)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13209,7 +13237,7 @@ GameObject:
   - component: {fileID: 6249542513480672392}
   m_Layer: 0
   m_Name: Dungeon_Tileset_32 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13400,7 +13428,7 @@ GameObject:
   - component: {fileID: 6249542513509018023}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (38)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13591,7 +13619,7 @@ GameObject:
   - component: {fileID: 6249542513511618572}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33 (3)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13673,7 +13701,7 @@ GameObject:
   - component: {fileID: 6249542513549884258}
   m_Layer: 0
   m_Name: Dungeon_Tileset_33 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13755,7 +13783,7 @@ GameObject:
   - component: {fileID: 6249542513575045288}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13837,7 +13865,7 @@ GameObject:
   - component: {fileID: 6249542513598540445}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (33)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13919,7 +13947,7 @@ GameObject:
   - component: {fileID: 6249542513602540135}
   m_Layer: 0
   m_Name: Dungeon_Tileset_23 (21)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14001,7 +14029,7 @@ GameObject:
   - component: {fileID: 6249542513614468836}
   m_Layer: 0
   m_Name: Dungeon_Tileset_12 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14192,7 +14220,7 @@ GameObject:
   - component: {fileID: 6249542513657824623}
   m_Layer: 0
   m_Name: Dungeon_Tileset_22 (11)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14274,7 +14302,7 @@ GameObject:
   - component: {fileID: 6249542513663138963}
   m_Layer: 0
   m_Name: Dungeon_Tileset_24 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14356,7 +14384,7 @@ GameObject:
   - component: {fileID: 2709310123076073046}
   m_Layer: 0
   m_Name: Dungeon_Tileset_32 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14438,7 +14466,7 @@ GameObject:
   - component: {fileID: 3665142762362767765}
   m_Layer: 0
   m_Name: Dungeon_Tileset_3 (1)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14520,7 +14548,7 @@ GameObject:
   - component: {fileID: 5928156598464995887}
   m_Layer: 0
   m_Name: Dungeon_Tileset_3 (4)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14602,7 +14630,7 @@ GameObject:
   - component: {fileID: 2753970126690501117}
   m_Layer: 0
   m_Name: Dungeon_Tileset_41 (2)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14684,7 +14712,7 @@ GameObject:
   - component: {fileID: 1266466022846410186}
   m_Layer: 0
   m_Name: Dungeon_Tileset_12 (5)
-  m_TagString: Untagged
+  m_TagString: Rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14847,3 +14875,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  entryPoint: 1
