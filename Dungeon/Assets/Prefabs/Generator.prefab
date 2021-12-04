@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17652fd8149d37b48990e1b680405bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 10, y: 10}
+  size: {x: 6, y: 6}
   startPos: 0
   room: {fileID: 8674565914215981487, guid: 9fd0929bc3bba5349add0437b0f12fea, type: 3}
   offset: {x: 13, y: 12}

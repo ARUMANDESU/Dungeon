@@ -101,9 +101,8 @@ public class RoomSpawner : MonoBehaviour
         }
 
 
-        if(other.CompareTag("Rooms") && other.CompareTag("SpawnPoint")){
-            if(true){
-                if(entryPoint==1){
+        
+        if(entryPoint==1){
                     Instantiate(templates.bootomRooms[0],gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.position,templates.bootomRooms[rand].transform.rotation);
                     Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
                 }
@@ -119,8 +118,5 @@ public class RoomSpawner : MonoBehaviour
                     Instantiate(templates.rightRooms[0],gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.position,templates.rightRooms[rand].transform.rotation);
                     Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
                 }
-            }
-            
-        }
     }
 }

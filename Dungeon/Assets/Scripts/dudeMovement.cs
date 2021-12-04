@@ -6,7 +6,7 @@ public class dudeMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
 
-
+    public Animator  animator;
     public float speed;
 
     public Joystick joystick;
@@ -14,10 +14,12 @@ public class dudeMovement : MonoBehaviour
 
 
     public void Start(){
-        rb = gameObject.AddComponent<Rigidbody2D>();
     }
     public void Update()
     {
+
+        animator.SetFloat("Speed",(Mathf.Abs(joystick.Horizontal)+2)*(Mathf.Abs(joystick.Vertical)+2)*speed);
+
         if(joystick.Horizontal>=.1f || joystick.Horizontal<=-.1f ){
             Vector3 dir = transform.right * joystick.Horizontal;
             transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
