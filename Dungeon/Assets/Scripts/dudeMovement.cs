@@ -5,8 +5,10 @@ using UnityEngine;
 public class dudeMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+
+
     public float speed;
-    public VariableJoystick variableJoystick;
+
     public Joystick joystick;
     
 
@@ -32,5 +34,7 @@ public class dudeMovement : MonoBehaviour
         }
     }
 
-
+    public void changeSpeed(float speedd){
+        speed=speedd;
+    }
 }
