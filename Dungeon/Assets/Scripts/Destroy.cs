@@ -6,7 +6,7 @@ public class Destroy : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Rooms")){
-            // Destroy(other.gameObject);
+            Destroy(other.gameObject);
         }
         
     }

@@ -2308,7 +2308,7 @@ GameObject:
   - component: {fileID: 7333920667504365191}
   m_Layer: 0
   m_Name: RoomT
-  m_TagString: Rooms
+  m_TagString: T
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

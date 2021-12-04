@@ -101,26 +101,26 @@ public class RoomSpawner : MonoBehaviour
         }
 
 
-        // if(other.CompareTag("Rooms")){
-        //     if(other.GetComponent<RoomSpawner>().spawned == true && spawned ==true){
-        //         if(entryPoint==1){
-        //             Instantiate(templates.bootomRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.bootomRooms[rand].transform.rotation);
-        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
-        //         }
-        //         else if(entryPoint==2){
-        //             Instantiate(templates.topRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.topRooms[rand].transform.rotation);
-        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
-        //         }
-        //         else if(entryPoint==3){
-        //             Instantiate(templates.leftRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.leftRooms[rand].transform.rotation);
-        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
-        //         }
-        //         else if(entryPoint==4){
-        //             Instantiate(templates.rightRooms[0],gameObject.transform.parent.transform.parent.gameObject.transform.position,templates.rightRooms[rand].transform.rotation);
-        //             Destroy(gameObject.transform.parent.transform.parent.gameObject);
-        //         }
-        //     }
+        if(other.CompareTag("Rooms") && other.CompareTag("SpawnPoint")){
+            if(true){
+                if(entryPoint==1){
+                    Instantiate(templates.bootomRooms[0],gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.position,templates.bootomRooms[rand].transform.rotation);
+                    Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
+                }
+                else if(entryPoint==2){
+                    Instantiate(templates.topRooms[0],gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.position,templates.topRooms[rand].transform.rotation);
+                    Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
+                }
+                else if(entryPoint==3){
+                    Instantiate(templates.leftRooms[0],gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.position,templates.leftRooms[rand].transform.rotation);
+                    Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
+                }
+                else if(entryPoint==4){
+                    Instantiate(templates.rightRooms[0],gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.position,templates.rightRooms[rand].transform.rotation);
+                    Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
+                }
+            }
             
-        // }
+        }
     }
 }

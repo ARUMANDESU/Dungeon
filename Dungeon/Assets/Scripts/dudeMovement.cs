@@ -34,5 +34,7 @@ public class dudeMovement : MonoBehaviour
         }
     }
 
-
+    public void changeSpeed(float speedd){
+        speed=speedd;
+    }
 }
